@@ -10,5 +10,5 @@ Use classes or methods for parallelisation of python.
 
 1. `thread_scheduler.py` : 
 
-    *  The class `Job` allows the scheduling of a thread in a python program. A job can be created and a new thread is launched enabled thus performing different tasks in parallel. It is only effecient if the threads are performing IO tasks. 
+    *  The class `Job` allows the scheduling of a thread in a python program. A job can be created and a new thread is launched enabled thus performing different tasks in parallel. It is only effecient if the threads are performing IO tasks. This one is simple and has no external 3rd party dependencies. A more mature example would be like this one https://github.com/DigonIO/scheduler. 
 
